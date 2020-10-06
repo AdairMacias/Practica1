@@ -29,7 +29,11 @@ Salida: Promedio de los elementos
 Entrada: Arreglo de elementos
 Salida: Elemento más pequeño
 
-1. 
+1. pequeño = A[0]
+2. for (i = 0:n)
+   2.A. if  A[i] < pequeño
+   2.B.pequeño = A[i]
+3. return pequeño
 
 #Obtener el elemento **más grande**
 
@@ -37,7 +41,11 @@ Salida: Elemento más pequeño
 Entrada: Arreglo de elementos
 Salida: Elemento más grande
 
-1.
+1. grande = A[0]
+2. for (i = 0:n)
+   2.A. if A[i] > grande
+   2.B. grande = A[i]
+3. return grande
 
 #Determinar si un número **es primo** o no lo es
 
