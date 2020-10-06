@@ -130,9 +130,9 @@ Escribe en la siguiente sección, para el conjunto de entradas indicado, el resu
 
 |valores_x|valores_y|resultado|
 |-|-|-|
-|[1, 2, 3]|[1, 2, 3, 4, 5]|**Primer valor de x = True; Segundo valor de x = False, True; Tercer valor de x = False, False, True**|
-|[2, 4]|[7, 5, 2, 8, 3]|**Primer valor de x = False, False, True; Segundo valor de x = False, False, False, False, False**|
-|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**Primer valor de x = False, False, True; Segundo valor de x = False, True; Tercer valor de x = False, False, False, False, False, True**|
+|[1, 2, 3]|[1, 2, 3, 4, 5]|**Primer valor de x = True; Segundo valor de x = False, True; Tercer valor de x = False, False, True ---- CORRECCIÓN TRUE**|
+|[2, 4]|[7, 5, 2, 8, 3]|**Primer valor de x = False, False, True; Segundo valor de x = False, False, False, False, False ------ CORRECCIÓN FALSE**|
+|[3, 5, 2]|[6, 5, 3, 7, 1, 2]|**Primer valor de x = False, False, True; Segundo valor de x = False, True; Tercer valor de x = False, False, False, False, False, True ----- CORRECCIÓN TRUE**|
 
 
 ##### Complejidad
