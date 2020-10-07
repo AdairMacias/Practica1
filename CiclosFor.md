@@ -8,7 +8,7 @@ Salida: Multiplicación de los elementos
 
 1. Multiplicación <- 1
 2. for (i = 0:n)
-   2.A Multiplicación <- Multiplicación * A[i]
+   - Multiplicación <- Multiplicación * A[i]
 3. return Multiplicación
 
 #Calcular el **promedio** de un arreglo de **n** números enteros de entrada
@@ -19,7 +19,7 @@ Salida: Promedio de los elementos
 
 1. Suma <- 0
 2. for (i = 0:n)
-   2.A Suma <- Suma + i
+   - Suma <- Suma + i
 3. Promedio <- Suma / n
 4. return Promedio
 
@@ -31,8 +31,8 @@ Salida: Elemento más pequeño
 
 1. pequeño = A[0]
 2. for (i = 0:n)
-   2.A. if  A[i] < pequeño
-   2.B.pequeño = A[i]
+   - if  A[i] < pequeño
+     - pequeño = A[i]
 3. return pequeño
 
 #Obtener el elemento **más grande**
@@ -43,8 +43,8 @@ Salida: Elemento más grande
 
 1. grande = A[0]
 2. for (i = 0:n)
-   2.A. if A[i] > grande
-   2.B. grande = A[i]
+   - if A[i] > grande
+     - grande = A[i]
 3. return grande
 
 #Determinar si un número **es primo** o no lo es
@@ -53,14 +53,13 @@ Salida: Elemento más grande
 Entrada: Arreglo de elementos, núm
 Salida: El número es o no primo
 
-Residuo = 0
-i = 1
-for i <= núm
-  Residuo <- núm % i 
-   if Residuo == 0
-      Residuo = Residuo + 1
- if Residuo == 2
-  return El número es primo
- else return El número no es primo
+1. CantResiduo = 0
+2. for i = 1:núm
+    - Residuo <- núm % i 
+    - if Residuo == 0
+      - CantResiduo = CantResiduo + 1
+3. if CantResiduo == 2
+   - return El número es primo
+4. else return El número no es primo
       
    
